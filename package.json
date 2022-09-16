@@ -1,0 +1,27 @@
+{
+  "name": "heimdall-contract",
+  "version": "1.0.0",
+  "description": "EVMOS mainnet deployment\r - Deployer: 0x97D96c77A61057D8737Ce722dEFc03e2F61fBF13\r - Contract repo: \r - Forked from: https://github.com/safe-global/safe-contracts",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "test": "truffle test",
+    "deploy:testnet": "truffle migrate --reset --network testnet",
+    "deploy:mainnet": "truffle migrate --reset --network mainnet"
+  },
+  "author": "Putra Laksmana",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "eth-sig-util": "^3.0.1",
+    "tslib": "^2.1.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
