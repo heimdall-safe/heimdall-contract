@@ -1,6 +1,6 @@
 EVMOS mainnet deployment
 - Deployer: 0x97D96c77A61057D8737Ce722dEFc03e2F61fBF13
-- Contract repo: 
+- Contract repo: https://github.com/HEIMDALL-EVMOS/heimdall-contract.git
 - Forked from: https://github.com/safe-global/safe-contracts
 
 Deployed contract addresses:
